@@ -1,0 +1,50 @@
+
+h1 {
+ font: arial; font-size: 20 }
+h1 { 
+color: green; width: 50% }
+
+body {
+    width: 60%;
+  opacity: 95%;
+    margin: auto;
+    margin-top: 2%;
+    background: white;
+    border-radius: 2rem;
+
+  }
+}
+body{
+  background-image:<img src= sci.jpg;
+  background-size: 150%;
+}
+h3{
+	font-family: 
+	color: yellow; background: orange;
+}
+h4 {
+color: indigo; border: 32px
+}
+td { color: maroon }
+th {color-interpolation: red}
+p { color: red; text-align: center; }
+.name {column-count: 5}
+#id {
+	font-style: arial
+}
+p.a {font-family: "Times New Roman", serif;}
+.button {
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	background-color: purple;
+}
+.button: hover {
+	background-color: #3e8e41
+}
+table {
+	border: 1px solid black;
+      border-collapse: collapse;
+    }
+}

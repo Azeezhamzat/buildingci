@@ -1,0 +1,58 @@
+.mydiv{
+  width: 60%;
+  opacity: 80%;
+  margin: auto;
+  margin-top: 2%;
+  background: white;
+  border-radius: 2rem;
+  padding: 2vw;
+  transition: 0.3s;
+}
+.mydiv:hover{
+  opacity: 97%;
+  transition: 0.3s;
+}
+.sub{
+  float: right;
+  margin-right: 15.7vw;
+  margin-top: 50px;
+  margin-left: 50vw;
+  margin-bottom: 5vw;
+}
+.input{
+  margin: auto;
+  width: 60%;
+  margin-bottom: 5%;
+}
+.mytitle{
+  margin-left: 5vw;
+  font-family: "Agency FB";
+  font-size: 4vw;
+  text-align: center;
+}
+body{
+  background-image: url("um6p1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.mytitle1{
+  font-family: 'Agency FB';
+  margin-left: 2vw;
+
+}
+a:active{
+  background-color: black;
+
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: black;
+  font-size: large;
+  transition: 0.3s;
+}
+a{
+margin: auto;
+}

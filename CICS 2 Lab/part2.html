@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> form page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+  .mydiv{
+    width: 60%;
+  opacity: 95%;
+    margin: auto;
+    margin-top: 2%;
+    background: white;
+    border-radius: 2rem;
+
+  }
+  .sub{
+
+    margin-left: 50vw;
+    margin-bottom: 5vw;
+  }
+  .input{
+    margin: auto;
+    width: 60%;
+    margin-bottom: 5%;
+  }
+  .mytitle{
+    margin-left: 5vw;
+    font-family: "Agency FB";
+    font-size: 4vw;
+    text-align: center;
+  }
+body{
+  background-image: url("img/um6p1.jpg");
+  background-size: 100%;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="mydiv">
+  <img src="img/logo.png" style=" margin: auto; margin-left:20vw; width: 20vw;    height: auto" alt="owl picture">
+  <h2 class="mytitle">Form admition </h2>
+  <form action="mailto:mourad.hicham@um6p.ma"
+  method="POST"
+  enctype="multipart/form-data"
+  name="EmailForm" >
+    <h2 style="font-family: 'Agency FB'; margin-left: 2vw"> Personnal information: </h2>
+
+    <div class="input-group mb-3 input">
+                <span class="input-group-text" id="basic-addon1">Position applied for</span>
+                <input type="text" class="form-control" placeholder="Type in the job you're applying for" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3 input">
+                <span class="input-group-text" id="basic-addon2">Nomination</span>
+                <input type="text" class="form-control" placeholder="type in your full name" aria-label="name" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3 input">
+                <span class="input-group-text" id="basic-addon3">Nationality</span>
+                <input type="text" class="form-control" placeholder="Type in your nationality" aria-label="Nationality" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3 input">
+                <span class="input-group-text" id="basic-addon4">Date of birth</span>
+                <input type="date" class="form-control" aria-label="DateOfBirth" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3 input">
+              <span class="input-group-text" id="basic-addon5">Adress</span>
+              <input type="text" class="form-control" placeholder="Type in the adress of your residency" aria-label="Adress" aria-describedby="basic-addon1">
+            </div>
+              <div class="input-group mb-3 input">
+                <span class="input-group-text" id="basic-addon6">Email</span>
+                <input type="email" required class="form-control" placeholder="Type in your email" aria-label="Adress" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3 input">
+                <span class="input-group-text" id="basic-addon7">Phone number</span>
+                <input type="text" required class="form-control" placeholder="Type in your phone number" aria-label="Adress" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3 input">
+                <span class="input-group-text" id="basic-addon8">Educational history and qualifications</span>
+                <input type="text" required class="form-control" placeholder="Type in a descrption" aria-label="Adress" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3 input">
+                <span class="input-group-text" id="basic-addon9">Work experience</span>
+
+                <label for="customRange3" style="font-size: 1.7vw;margin-left: 2vw" class="form-label">1</label>
+                <input type="range"  style="margin-left: 2vw; width: 15vw"  class="form-range" min="0" max="10" step="1" id="customRange3">
+                <label for="customRange3"  style="font-size: 1.7vw;margin-left: 2vw"  class="form-label">10</label>
+
+              </div>
+              <div class="input-group mb-3 input">
+                <span class="input-group-text" id="basic-addon10">text adition</span>
+                <input type="text"  class="form-control" style="width: 30vw" placeholder="Feel free to type anything here" aria-label="Adress" aria-describedby="basic-addon1">
+              </div>
+    <h2 style="font-family: 'Agency FB'; margin-left: 2vw"> References: </h2>
+
+                    <div class="input-group mb-3 input">
+                      <span class="input-group-text" id="basic-addon14">Nomination</span>
+                      <input type="text" class="form-control" placeholder="type in the full name of your reference" aria-label="name" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3 input">
+                      <span class="input-group-text" id="basic-addon15">Occupation</span>
+                      <input type="text" class="form-control" placeholder="What is the job occupied by your reference" aria-label="name" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3 input">
+                      <span class="input-group-text" id="basic-addon11">Relationship</span>
+                      <input type="text" class="form-control" placeholder="how is this reference related to you" aria-label="Adress" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3 input">
+                      <span class="input-group-text" id="basic-addon12">Email</span>
+                      <input type="email" required class="form-control" placeholder="enter a valid email" aria-label="Adress" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3 input">
+                      <span class="input-group-text" id="basic-addon13">Phone number</span>
+                      <input type="text" required class="form-control" placeholder="Enter a valid phone number" aria-label="Adress" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+      <button
+        type="submit"
+        class="btn btn-primary sub"
+        style="float: right; margin-right: 15.7vw; margin-top: 50px"
+      >Submit
+      </button>
+    </div>
+
+  </form>
+</div>
+
+</body>
+
+</html>
