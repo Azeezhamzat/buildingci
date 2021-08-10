@@ -46,9 +46,10 @@ h6 {
 }
 
 .promo-item {
-    height: 200px;
+    height: 300px;     /* The original height is 200px. I changed it to 300px */
     line-height: 180px;
-    text-align: center;
+	width: 100%;        /* I added this with as an extra */
+    text-align: center; font-style: italic; font-size: xx-small; /*font-style and font-size were not there originally*/
 }
 
 .promo-item:hover {
